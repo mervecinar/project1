@@ -2,114 +2,23 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
-  <title>Farazi Ürün - Demo Sayfası</title>
+  <title>Ürün Galerisi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Mobil uyum -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- Açıklama -->
-  <meta name="description" content="Bu sayfa test amaçlı bir ürün ve paylaşım görseli demoları içindir." />
-
-  <!-- === Open Graph (Facebook, LinkedIn, WhatsApp, vb.) === -->
-  <meta property="og:type" content="product" />
-  <meta property="og:site_name" content="Benim Demo Sitem" />
-  <meta property="og:title" content="Farazi Süper Ürün" />
-  <meta property="og:description" content="Bu sadece deneme amaçlı bir ürün sayfasıdır." />
-
-  <!-- OG Image - TAM URL -->
-  <meta property="og:image" content="https://mervecinar.github.io/project1/resim.jpg" />
-  <meta property="og:image:type" content="image/jpeg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-
-  <!-- Sayfanın Tam URL'i -->
-  <meta property="og:url" content="https://mervecinar.github.io/project1/index.html" />
-
-  <!-- === Twitter Card (X) === -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Farazi Süper Ürün" />
-  <meta name="twitter:description" content="Bu sadece deneme amaçlı bir ürün sayfasıdır." />
-  <meta name="twitter:image" content="https://mervecinar.github.io/project1/resim.jpg" />
-
-  <!-- Stil -->
   <style>
-    body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f5f5f5;
-      color: #222;
-    }
-    .container {
-      max-width: 960px;
-      margin: 40px auto;
-      padding: 24px;
-      background: white;
-      border-radius: 12px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-    }
-    .product {
-      display: grid;
-      grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
-      gap: 24px;
-      align-items: start;
-    }
-    .product img {
-      width: 100%;
-      border-radius: 12px;
-      object-fit: cover;
-    }
-    @media (max-width: 768px) {
-      .product {
-        grid-template-columns: 1fr;
-      }
-    }
-    h1 {
-      margin-top: 0;
-      margin-bottom: 12px;
-    }
-    .price {
-      font-size: 1.4rem;
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 16px;
-      padding: 10px 20px;
-      border-radius: 999px;
-      border: none;
-      cursor: pointer;
-      font-size: 0.95rem;
-      background: black;
-      color: white;
-      text-decoration: none;
+    body { font-family: sans-serif; text-align:center; padding:60px; background:#f3f3f3; }
+    a {
+      display:inline-block; padding:14px 26px; 
+      background:black; color:white; text-decoration:none;
+      border-radius:10px; font-size:1.1rem;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="product">
-      <div>
-        <!-- Aynı klasördeki resim -->
-        <img src="resim.jpg" alt="Farazi ürün görseli" />
-      </div>
-      <div>
-        <h1>Farazi Süper Ürün</h1>
-        <div class="price">₺999,00</div>
-        <p>
-          Bu ürün tamamen deneme amaçlıdır. Buradaki asıl amaç, sayfa sosyal
-          medyada paylaşıldığında <strong>OG görselinin (resim.jpg)</strong>
-          platformlara göre nasıl kırpılıp gösterildiğini test etmektir.
-        </p>
-        <p>
-          Bu sayfayı GitHub Pages üzerinde yayınlayıp, linki WhatsApp, Twitter (X),
-          Facebook, LinkedIn vs. gibi platformlarda paylaşarak, önizleme kartında
-          görselin nasıl göründüğünü görebilirsin.
-        </p>
-        <a href="#" class="btn">Bu sadece demo bir buton</a>
-      </div>
-    </div>
-  </div>
+  <h1>Ürün Galerisine Hoş Geldin</h1>
+  <p>Aşağıdaki butona basarak ürünlere geçiş yapabilirsin.</p>
+  
+  <a href="ayakkabi.html">İlk Ürüne Git → Ayakkabı</a>
+
 </body>
 </html>
